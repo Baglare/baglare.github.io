@@ -2,7 +2,7 @@
   "id": "/",
   "name": "DersOyun · Öğrenme Atölyesi",
   "short_name": "DersOyun",
-  "description": "Dört üniversite dersi için kaynaklı anlatımlar, etkileşimli atölyeler, 1344 çalışma sorusu ve 37 deneme. Hesapsız; ilerleme bu cihazda saklanır.",
+  "description": "Beş üniversite dersi için kaynaklı anlatımlar, 1466 çalışma sorusu, 35 klasik vize sorusu ve 41 deneme. Hesapsız; ilerleme bu cihazda saklanır.",
   "lang": "tr",
   "dir": "ltr",
   "start_url": "/",
@@ -22,6 +22,7 @@
     { "name": "Makine Öğrenmesi", "url": "/#course/machine-learning-v2/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
     { "name": "Derin Öğrenme", "url": "/#course/deep-learning/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
     { "name": "Büyük Veri", "url": "/#course/big-data/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
-    { "name": "Yapay Zekâ Yazılım Geliştirme", "url": "/#course/ai-software-development/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+    { "name": "Yapay Zekâ Yazılım Geliştirme", "url": "/#course/ai-software-development/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    {"name": "Atatürk İlkeleri ve İnkılap Tarihi I", "url": "/#course/ataturk-ilkeleri-ve-inkilap-tarihi-1/topics", "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]}
   ]
 }
