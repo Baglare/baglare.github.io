@@ -1,0 +1,41 @@
+name: Publish DersOyun PWA to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and stage static files only
+        run: |
+          set -eu
+          for f in index.html sw.js manifest.webmanifest robots.txt theme-init.js; do test -f "$f"; done
+          test -d assets && test -d icons
+          if find assets icons -type f \( -iname '*.pdf' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.zip' -o -iname '*.map' \) | grep .; then
+            echo 'Forbidden source file in publish output' >&2
+            exit 1
+          fi
+          mkdir -p "$RUNNER_TEMP/dersoyun-static"
+          cp -a assets icons index.html manifest.webmanifest robots.txt sw.js theme-init.js "$RUNNER_TEMP/dersoyun-static/"
+          touch "$RUNNER_TEMP/dersoyun-static/.nojekyll"
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload verified static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/dersoyun-static
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,3 @@
+# Özel çalışma uygulaması: arama motorları dizinlemesin.
+User-agent: *
+Disallow: /

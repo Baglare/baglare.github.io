@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "DersOyun · Öğrenme Atölyesi",
+  "short_name": "DersOyun",
+  "description": "Dört üniversite dersi için kaynaklı anlatımlar, etkileşimli atölyeler, 1344 çalışma sorusu ve 37 deneme. Hesapsız; ilerleme bu cihazda saklanır.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#11141c",
+  "theme_color": "#11141c",
+  "categories": ["education"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Makine Öğrenmesi", "url": "/#course/machine-learning-v2/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Derin Öğrenme", "url": "/#course/deep-learning/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Büyük Veri", "url": "/#course/big-data/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Yapay Zekâ Yazılım Geliştirme", "url": "/#course/ai-software-development/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
