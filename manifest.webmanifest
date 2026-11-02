@@ -2,27 +2,108 @@
   "id": "/",
   "name": "DersOyun · Öğrenme Atölyesi",
   "short_name": "DersOyun",
-  "description": "Beş üniversite dersi için kaynaklı anlatımlar, 1466 çalışma sorusu, 35 klasik vize sorusu ve 41 deneme. Hesapsız; ilerleme bu cihazda saklanır.",
+  "description": "Altı üniversite dersi: 1716 çalışma sorusu, 35 klasik vize sorusu, 58 deneme ve mimari laboratuvarları. Hesapsız; ilerleme bu cihazda saklanır.",
   "lang": "tr",
   "dir": "ltr",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
   "orientation": "any",
   "background_color": "#11141c",
   "theme_color": "#11141c",
-  "categories": ["education"],
+  "categories": [
+    "education"
+  ],
   "icons": [
-    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
-    { "name": "Makine Öğrenmesi", "url": "/#course/machine-learning-v2/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
-    { "name": "Derin Öğrenme", "url": "/#course/deep-learning/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
-    { "name": "Büyük Veri", "url": "/#course/big-data/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
-    { "name": "Yapay Zekâ Yazılım Geliştirme", "url": "/#course/ai-software-development/topics", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
-    {"name": "Atatürk İlkeleri ve İnkılap Tarihi I", "url": "/#course/ataturk-ilkeleri-ve-inkilap-tarihi-1/topics", "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]}
+    {
+      "name": "Makine Öğrenmesi",
+      "url": "/#course/machine-learning-v2/topics",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Derin Öğrenme",
+      "url": "/#course/deep-learning/topics",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Büyük Veri",
+      "url": "/#course/big-data/topics",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Yapay Zekâ Yazılım Geliştirme",
+      "url": "/#course/ai-software-development/topics",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Atatürk İlkeleri ve İnkılap Tarihi I",
+      "url": "/#course/ataturk-ilkeleri-ve-inkilap-tarihi-1/topics",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Bilgisayar Mimarisi",
+      "url": "/#course/computer-architecture/topics",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
   ]
 }
